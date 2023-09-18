@@ -67,10 +67,6 @@ class _RegisterViewState extends State<RegisterView> {
                     devtools.log("Email already in use !");
                   } else if (e.code == "invalid-email") {
                     devtools.log("Invalid email entered !");
-                  } else if (e.code == "missing-email") {
-                    devtools.log("Missing email !");
-                  } else if (e.code == "missing-password") {
-                    devtools.log("Missing password !");
                   }
                 }
               },
