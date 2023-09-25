@@ -11,9 +11,13 @@ class NotesService {
 
   List<DatabaseNote> _notes = [];
 
+  //// Singleton design pattern ////
+  //// Bu classtan sadece 1 instance olmasını sağlar ////
+  //// Her çağırıldığında "_shared" instancenı döndürür ////
   static final NotesService _shared = NotesService._sharedInstance();
   NotesService._sharedInstance();
   factory NotesService() => _shared;
+  //////////////////////////////////
 
   final _notesStreamController =
       StreamController<List<DatabaseNote>>.broadcast();
