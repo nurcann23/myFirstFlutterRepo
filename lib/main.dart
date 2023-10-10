@@ -5,8 +5,6 @@ import 'package:firstflut/views/notes/notes_view.dart';
 import 'package:firstflut/views/register_view.dart';
 import 'package:firstflut/views/verify_email_view.dart';
 import 'package:flutter/material.dart';
-import 'package:path/path.dart';
-
 import 'views/notes/new_note_view.dart';
 
 void main() {
