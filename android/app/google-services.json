@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "62540229880",
+    "project_id": "nurcanfirstapp",
+    "storage_bucket": "nurcanfirstapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62540229880:android:90ffbb28dc1100ac2ddf0d",
+        "android_client_info": {
+          "package_name": "com.example.firstflut"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFx_k79HPSyubTkwdxNSPfFurgdiV4zqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
